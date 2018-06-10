@@ -258,8 +258,8 @@ figcaption {
 }
 
 .container:hover {
-    transform: scale(1.07);
-    transition: .2s ease;
+    transform: scale(1.05);
+    transition: .2s ease-in-out;
 }
 
 .container:hover .image {
