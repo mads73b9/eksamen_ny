@@ -128,6 +128,8 @@ figcaption {
 
 .logo:hover {
     cursor: url(pics/tornado_small.png), auto;
+    transform: scale(1.07);
+    transition: .2s ease;
 }
 
 .logo img {
@@ -255,9 +257,10 @@ figcaption {
     text-align: center;
 }
 
-/*.container:hover {
-    transform: scale(1.08);
-}*/
+.container:hover {
+    transform: scale(1.07);
+    transition: .2s ease;
+}
 
 .container:hover .image {
     opacity: .2;
